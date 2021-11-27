@@ -5,12 +5,7 @@
       <p v-if="show">hello</p>
     </transition>
     <transition name="slide">
-      <div v-if="show">
-        <p>bye</p>
-        <p>hello</p>
-        <p>hello</p>
-        <p>hello</p>
-      </div>
+      <p v-if="show">bye</p>
     </transition>
   </div>
 </template>
